@@ -1,0 +1,52 @@
+/*VARIABLES*/
+$blue-dark: #0060d4;
+$blue: #0074FF;
+$blue-light: #D6DDFF;
+$blue-lighter: #E9EDFF;
+$blue-lightest: #F6F8FF;
+$gray-light: #8C8C8C;
+$gray-dark: #5D5D5D;
+$yellow: #EFC300;
+
+$border-blue-light: 1px solid $blue-light;
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: $gray-light;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 300;
+
+}
+h5 {
+  font-size: 16px;
+  font-weight: 300;
+
+}
+h6 {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
